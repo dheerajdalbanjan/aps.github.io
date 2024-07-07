@@ -1,4 +1,4 @@
-# E-Commerce Search and Filter Optimization Portfolio
+# E-Commerce Search and Filter Optimization
 
 - **Course Name** 
     Algorithmic Problem Solving(APS)
@@ -11,7 +11,13 @@
 
 
 # Introduction
-The motive of building this portfolio is to enhance E-commerce search and filter functionalities. The use of effiecient Data structure and algorithms (DSA) algorithms are crucial for this process
+The motive of building this portfolio is to enhance E
+-commerce search and filter functionalities. The use of effiecient Data structure and algorithms (DSA) algorithms are crucial for this process
+
+# Functionalities Identified
+
+![e-commerce drawio](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/06a395b0-3880-4fb5-9421-220c396c8c42)
+
 
 # Functionalities to Implement
 
