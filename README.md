@@ -78,6 +78,7 @@ The motive of building this portfolio is to enhance E
      - **TF-IDF (Term Frequency-Inverse Document Frequency)**: Measures importance of terms.
      - **PageRank**: Ranks items based on user interactions.
        
+       
    - ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/d049cb8d-f45e-40de-bea5-e8cb7a7bfc12)
     So for the search query "laptop for gaming" the above is the most relevant according to <a href="https://amazon.in"> Amazon</a>.
 
