@@ -50,8 +50,10 @@ The motive of building this portfolio is to enhance E
    - **Dynamic Filters**
      Filtering mechanisms allow users to narrow down search results based on specific creteria select by the user such as (price, brand, category and other attributes). This is the feature that helps user to find exactly what they are looking for.
      
-| ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/c732419d-e512-4227-b62e-98c67ae7356d) |<li>It provides various filter options relevant to the product categories and also allow user t o select multiple filters.</li> <li>Once the filters are selected the search results are dynamically updated. </li> <li> **Segment Trees**: Manage and update range queries efficiently.</li> <li> **Fenwick Trees**: Handle dynamic frequency counts.</li> |
+| | |
 |---|---|
+| ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/c732419d-e512-4227-b62e-98c67ae7356d) |<li>It provides various filter options relevant to the product categories and also allow user t o select multiple filters.</li> <li>Once the filters are selected the search results are dynamically updated. </li> <li> **Segment Trees**: Manage and update range queries efficiently.</li> <li> **Fenwick Trees**: Handle dynamic frequency counts.</li> |
+
 
 
 3. **Relevance and Ranking**
