@@ -70,10 +70,10 @@ The motive of building this portfolio is to enhance E-commerce search and filter
                      <li>It provides various filter options relevant to the product categories and also allow user t o select multiple filters.</li> <li>Once the filters are selected the search results are dynamically updated. </li> 
                      <li> <b>Segment Trees</b>: Manage and update range queries efficiently.</li>
                      <li>Time complexity of *Segment trees* is O(nlogn)</li>
-                     <li>Basic Implementation: [segmentTree.cpp](segmentTree.cpp)</li>
+                     <li>Basic Implementation: <a href="segmentTree.cpp">segmentTree.cpp</a></li>
                      <li> <b>Fenwick Trees</b>: Handle dynamic frequency counts.</li>
                      <li>Time complexity of *Fenwick trees* is O(nlogn)</li>
-                     <li>Basic Implementation: [fenwick.cpp](fenwick.cpp)</li>
+                     <li>Basic Implementation: <a href="fenwick.cpp">fenwick.cpp</a></li>
                  </ul>
              </td>
          </tr>
@@ -134,11 +134,13 @@ The motive of building this portfolio is to enhance E-commerce search and filter
      - *Heap Data Structure*:
        - Manages real-time task scheduling.
        - It is useful for keeping track of the most recent data.
-       - Time complexity is O(log n). 
+       - Time complexity is O(log n).
+       - Basic Implementation: [heap.cpp](heap.cpp)
      - *Dynamic Hash Tables*:
        - Provides fast access to updated data.
        - handling of dynamic data is done by resizing and rehashing as needed.
        - Time complexity is O(1) for insert, delete and search.
+       - Basic Implementation: [dynamicHash.cpp](dynamicHash.cpp)
 
 
 6. **Price Comparison**  
@@ -159,6 +161,7 @@ The motive of building this portfolio is to enhance E-commerce search and filter
      - Basic Implementation: [quickSort.cpp](quickSort.cpp)
 
 
+
 7. **Voice Search**  
    
    Voice Search enables users to search for products using voice commands.
@@ -174,6 +177,7 @@ The motive of building this portfolio is to enhance E-commerce search and filter
        Trie for effecient search and autocomplete.
      - *Time Complexity*: O(n) for processing speech input.
      - Basic Implementation: [trie.cpp](trie.cpp)
+
 
 
 8. **Visual Search**
@@ -211,6 +215,7 @@ The motive of building this portfolio is to enhance E-commerce search and filter
 
 
 
+
 9. **Advanced Sorting Options**  
    
    Advanced Sorting Options aims to provide users with multiple sorting options like popularity, newest arrivals and customer ratings.
@@ -239,12 +244,15 @@ The motive of building this portfolio is to enhance E-commerce search and filter
        
    
 
+
 # Algorithms and Data Structures
 
 | **Data Structure/Algorithm**      | **Time Complexity**                            | **Space Complexity** |
 |:--|:--|:--|
 | **Trie Data Structure**           | Insert/Search: O(m)                            | O(m) per node        |
 | **B+ Trees**                      | Insert/Delete/Search: O(log n)                 | O(n)                 |
+| **Dynamic Hash Table**                      |  O(1)                 | O(n)                 |
+| **Heap Data Struture**                      | Insert/Delete/Search: O(log n)                 | O(n)                 |
 | **Segment Trees**                 | Build: O(n log n), Query/Update: O(log n)      | O(n)                 |
 | **Fenwick Trees**                 | Build: O(n log n), Update/Query: O(log n)      | O(n)                 |
 | **Collaborative Filtering**       | O(nm)                                          | O(nm)                |
