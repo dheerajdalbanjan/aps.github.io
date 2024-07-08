@@ -11,12 +11,23 @@
 
 
 # Introduction
-The motive of building this portfolio is to enhance E
--commerce search and filter functionalities. The use of effiecient Data structure and algorithms (DSA) algorithms are crucial for this process
+The motive of building this portfolio is to enhance E-commerce search and filter functionalities. The use of effiecient Data structure and algorithms (DSA) algorithms are crucial for this process
 
 # Functionalities Identified
 
-![e-commerce drawio (1)](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/b5b2a535-f99b-4e6c-9512-d327c40934d1)
+1. Search Optimization
+2. Filtering Mechanisms
+3. Relevance and Ranking
+4. Personalization
+5. Real-time Updates
+6. Price Comparison
+7. Voice Search
+8. Visual Search
+9. Advanced Sorting Options
+10. Customer Reviews and Ratings Analysis
+
+![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/6a105608-fd5b-43e6-a7de-110a63b9cef8)
+
 
 # Functionalities Implemented.
 
@@ -39,10 +50,13 @@ The motive of building this portfolio is to enhance E
            - It efficiently stores large set of strings.
            - It is fast in terms of lookups of words starting with a given prefix.
            - *Time Complexity*: O(m), where m is the length of the query.
+           - Basic Implementation: [trie.cpp](trie.cpp)
          - *B+ Trees*:
             - B+ Tree is a self-balancing data structure that maintains sorted data and allows searches, sequential access and more.
             - It is prefered for handling large datasets with balanced tree structure.
             - *Time Complecxity*: Insert/Delete/Search: O(log n).
+            - Basic Implementation: [b+.cpp](b+.cpp)
+
 
 2. **Filtering Mechanisms**
    - **Dynamic Filters**:
@@ -56,14 +70,15 @@ The motive of building this portfolio is to enhance E
                      <li>It provides various filter options relevant to the product categories and also allow user t o select multiple filters.</li> <li>Once the filters are selected the search results are dynamically updated. </li> 
                      <li> <b>Segment Trees</b>: Manage and update range queries efficiently.</li>
                      <li>Time complexity of *Segment trees* is O(nlogn)</li>
+                     <li>Basic Implementation: [segmentTree.cpp](segmentTree.cpp)</li>
                      <li> <b>Fenwick Trees</b>: Handle dynamic frequency counts.</li>
                      <li>Time complexity of *Fenwick trees* is O(nlogn)</li>
+                     <li>Basic Implementation: [fenwick.cpp](fenwick.cpp)</li>
                  </ul>
              </td>
          </tr>
      </table>
      
-
 
 
 
@@ -76,6 +91,7 @@ The motive of building this portfolio is to enhance E
    - Inverted Index and Heap data structure could be used here to efficiently map terms to their locaiton in a database of documents and maintain a dynamically sorted list of top-k elements respectively.
    - *Ranking Algorithms*
      - **TF-IDF (Term Frequency-Inverse Document Frequency)**: Measures importance of terms.
+     - Basic Implementation: [TF-IDF.cpp](tfIdf.cpp)
      - **PageRank**: Ranks items based on user interactions.
        
    - ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/d049cb8d-f45e-40de-bea5-e8cb7a7bfc12)
@@ -99,10 +115,12 @@ The motive of building this portfolio is to enhance E
        - Recommends items based on user behavior.
        - it can be user based or item based.
        - Time Complexity is O(mn)
+       - Basic Implementation: [collabFilter.cpp](collabFilter.cpp)
      - *Matrix Factorization*:
        - Reduces dimensionality for personalized recommendations.
        - includes latent factors representing user preferences and item characteristics.
        - Time Complexity is O(nk + mk), k is the no. of latent features.
+
 
 5. **Real-time Updates**
    
@@ -116,12 +134,12 @@ The motive of building this portfolio is to enhance E
      - *Heap Data Structure*:
        - Manages real-time task scheduling.
        - It is useful for keeping track of the most recent data.
-       - Time complexity is O(log n).
+       - Time complexity is O(log n). 
      - *Dynamic Hash Tables*:
        - Provides fast access to updated data.
        - handling of dynamic data is done by resizing and rehashing as needed.
        - Time complexity is O(1) for insert, delete and search.
-Here are five additional functionalities, formatted in Markdown, that could enhance the e-commerce search and filter experience:
+
 
 6. **Price Comparison**  
    
@@ -138,6 +156,8 @@ Here are five additional functionalities, formatted in Markdown, that could enha
        Quick sort is used for sorting and Binary Search for comparison.
      - *Time Complexity*:
        O(n log n) for sorting.
+     - Basic Implementation: [quickSort.cpp](quickSort.cpp)
+
 
 7. **Voice Search**  
    
@@ -153,6 +173,8 @@ Here are five additional functionalities, formatted in Markdown, that could enha
      - *DSA algorithm*:
        Trie for effecient search and autocomplete.
      - *Time Complexity*: O(n) for processing speech input.
+     - Basic Implementation: [trie.cpp](trie.cpp)
+
 
 8. **Visual Search**
     
@@ -181,6 +203,7 @@ Here are five additional functionalities, formatted in Markdown, that could enha
                        <i>Time Complexity</i>:
                        O(n) for distance calculation.
                    </li>
+                   <li>Basic Implementation: [euclidean.cpp](euclidean.cpp)</li>
                </ul>
            </td>
        </tr>
@@ -195,6 +218,7 @@ Here are five additional functionalities, formatted in Markdown, that could enha
    - **Key Components**:
      - *Sorting Algorithms*: Implement mergesort.
      - *Time Complexity*: O(n log n) for sorting.
+     - Basic Implementation: [mergeSort.cpp](mergeSort.cpp)
 
 10. **Customer Reviews and Ratings Analysis**  
 
@@ -211,6 +235,7 @@ Here are five additional functionalities, formatted in Markdown, that could enha
        TF-IDF for sentiment analysis.
      - *Time Complexity*:
         O(n) for processing each review.
+     - Basic Implementation: [TF-IDF.cpp](tfIdf.cpp)
        
    
 
@@ -229,19 +254,6 @@ Here are five additional functionalities, formatted in Markdown, that could enha
 | **Advanced Sorting (Quick Sort)** | O(n log n)                                     | O(log n)             |
 | **Sentiment Analysis (TF-IDF)**   | O(n)                                           | O(n)                 |
 
-
-# Combining Solutions
-
-1. **Integration of Autocomplete and Suggestions**
-   - Use Trie for efficient query storage and B+ Trees for balanced access.
-2. **Dynamic Filter Updates**
-   - Implement Segment Trees and Fenwick Trees for real-time filter adjustments.
-3. **Enhanced Search Relevance**
-   - Apply TF-IDF and PageRank for ranking search results.
-4. **Personalized Recommendations**
-   - Combine Collaborative Filtering and Matrix Factorization for user-specific suggestions.
-5. **Real-time Data Handling**
-   - Utilize Heap Data Structure and Dynamic Hash Tables for processing live data updates.
 
 ### Conclusion
 
