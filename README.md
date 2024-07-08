@@ -263,6 +263,14 @@ The motive of building this portfolio is to enhance E-commerce search and filter
 | **Sentiment Analysis (TF-IDF)**   | O(n)                                           | O(n)                 |
 
 
-### Conclusion
+# Conclusion
 
 Integrating these functionalities and algorithms can significantly enhance the search and filter experience in e-commerce platforms, providing users with more relevant and personalized results efficiently.
+
+# References
+
+- D. E. Knuth, "The Art of Computer Programming, Volume 3: Sorting and Searching," Addison-Wesley, 1997.
+- P. Sanders, "Fast Priority Queues for Cached Memory," Journal of Experimental Algorithmics (JEA), vol. 5, pp. 7, 2000.
+- B. C. Ooi, "Efficient Query Processing in Dynamic Text Databases," ACM Transactions on Database Systems, vol. 22, no. 4, pp. 501-537, Dec. 1997.
+- J. L. Bentley and R. Sedgewick, "Fast Algorithms for Sorting and Searching Strings," in Proceedings of the Eighth Annual ACM-SIAM Symposium on Discrete Algorithms, 1997, pp. 360-369.
+
