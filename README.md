@@ -78,8 +78,8 @@ The motive of building this portfolio is to enhance E
      - **TF-IDF (Term Frequency-Inverse Document Frequency)**: Measures importance of terms.
      - **PageRank**: Ranks items based on user interactions.
        
-       
    - ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/d049cb8d-f45e-40de-bea5-e8cb7a7bfc12)
+     
     So for the search query "laptop for gaming" the above is the most relevant according to <a href="https://amazon.in"> Amazon</a>.
 
 
@@ -121,16 +121,113 @@ The motive of building this portfolio is to enhance E
        - Provides fast access to updated data.
        - handling of dynamic data is done by resizing and rehashing as needed.
        - Time complexity is O(1) for insert, delete and search.
+Here are five additional functionalities, formatted in Markdown, that could enhance the e-commerce search and filter experience:
+
+6. **Price Comparison**  
+   
+   It involves comparing product prices across different sellers to provide users with the best overview of the market with the best deals.
+
+   ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/8d7618b0-8feb-4440-8963-8a2cceac1f33)
+
+   - **Key Components**:
+     - *Data Collection*:
+       Data collection involves collection of price data from different sources which can be used for various purposes.
+     - *Algorithm*:
+       Sorting and Binary search are used for quick search.
+     - *DSA Algorithm*:
+       Quick sort is used for sorting and Binary Search for comparison.
+     - *Time Complexity*:
+       O(n log n) for sorting.
+
+7. **Voice Search**  
+   
+   Voice Search enables users to search for products using voice commands.
+
+   ![WhatsApp Image 2024-07-08 at 07 02 15_b1a9c248](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/3d5ee509-5d52-4714-9c07-d3eaea00860b)
+   
+   - **Key Components**:
+     - *Speech Recognition*:
+       Instead of directly using voice for displaying results, the audio is being converted to text and then the text is being used for querying.
+     - *Natural Language Processing (NLP)*:
+       It uses Natural Language Processing (NLP) to understand and process user queries.
+     - *DSA algorithm*:
+       Trie for effecient search and autocomplete.
+     - *Time Complexity*: O(n) for processing speech input.
+
+8. **Visual Search**
+    
+   Along with querying using text and audio, querying through through images or videos is to be implemented for employing convinience to the user.
+
+   <table>
+       <tr>
+           <td>
+               <img src="https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/75d0532d-0dd8-4a14-a995-daae79bd6f19" />
+           </td>
+           <td>
+               <ul>
+                   <li>
+                       <i>Image Processing</i>: 
+                       The input image is being analyzed and the objects in the image are being identified so that they are matched with the product images in the database and thus giving user with the relevant output.
+                   </li>
+                   <li>
+                       <i>Machine Learning</i>: 
+                       The above image features extracted are being compared with the product database using various distance finding algorithms.
+                   </li>
+                   <li>
+                       <i>DSA algorithm</i>: 
+                       Euclidean Algorithm is used to find the distance between the query image and images in the database.
+                   </li>
+                   <li>
+                       <i>Time Complexity</i>:
+                       O(n) for distance calculation.
+                   </li>
+               </ul>
+           </td>
+       </tr>
+   </table>
+
+
+
+9. **Advanced Sorting Options**  
+   
+   Advanced Sorting Options aims to provide users with multiple sorting options like popularity, newest arrivals and customer ratings.
+   
+   - **Key Components**:
+     - *Sorting Algorithms*: Implement mergesort.
+     - *Time Complexity*: O(n log n) for sorting.
+
+10. **Customer Reviews and Ratings Analysis**  
+
+    This involves analyzing customer reviews and rating to highlight pros and cons of the product and thus make the querying of the user easy.
+
+    ![image](https://github.com/dheerajdalbanjan/aps.github.io/assets/100364283/47f7d4f0-379f-44f1-928a-dc04e1b86008)
+    
+   - **Key Components**:
+     - *Sentiment Analysis*:
+       Natural Language Processing (NLP) algorithms are used to assess review sentiments and provide user a more clear picture about the product.
+     - *Summarization*:
+       After analyzing the sentiments key points from the reviews are being extracted and summarized.
+     - *DSA Algorithm*:
+       TF-IDF for sentiment analysis.
+     - *Time Complexity*:
+        O(n) for processing each review.
+       
+   
 
 # Algorithms and Data Structures
 
-| **Data Structure/Algorithm** | **Time Complexity**                            | **Space Complexity** |
+| **Data Structure/Algorithm**      | **Time Complexity**                            | **Space Complexity** |
 |:--|:--|:--|
-| **Trie Data Structure**      | Insert/Search: O(m)                            | O(m) per node        |
-| **B+ Trees**                 | Insert/Delete/Search: O(log n)                 | O(n)                 |
-| **Segment Trees**            | Build: O(n log n), Query/Update: O(log n)      | O(n)                 |
-| **Fenwick Trees**            | Build: O(n log n), Update/Query: O(log n)      | O(n)                 |
-| **Collaborative Filtering**  | O(nm)                                          | O(nm)                |
+| **Trie Data Structure**           | Insert/Search: O(m)                            | O(m) per node        |
+| **B+ Trees**                      | Insert/Delete/Search: O(log n)                 | O(n)                 |
+| **Segment Trees**                 | Build: O(n log n), Query/Update: O(log n)      | O(n)                 |
+| **Fenwick Trees**                 | Build: O(n log n), Update/Query: O(log n)      | O(n)                 |
+| **Collaborative Filtering**       | O(nm)                                          | O(nm)                |
+| **Price Comparison (Merge Sort)** | O(n log n)                                     | O(n)                 |
+| **Voice Search (Trie)**           | O(m)                                           | O(m) per node        |
+| **Visual Search (Euclidean)**     | O(n)                                           | O(1)                 |
+| **Advanced Sorting (Quick Sort)** | O(n log n)                                     | O(log n)             |
+| **Sentiment Analysis (TF-IDF)**   | O(n)                                           | O(n)                 |
 
 
 # Combining Solutions
